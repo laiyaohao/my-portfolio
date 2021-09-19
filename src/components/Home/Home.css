@@ -1,0 +1,10 @@
+body,html {
+  background-image: url('../../IMG_0846.JPG');
+  background-position: 40%;
+}
+
+.Home {
+  padding: 10%;
+  min-height: 90vh;
+  color:white;
+}

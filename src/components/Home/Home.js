@@ -1,7 +1,7 @@
 import React from 'react'
 import './Home.css'
 
-export default function Home() {
+const Home = () => {
   return (
     <div className="container Home">
       <h1>
@@ -10,3 +10,5 @@ export default function Home() {
     </div>
   )
 }
+
+export default Home;

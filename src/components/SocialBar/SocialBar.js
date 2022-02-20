@@ -1,7 +1,7 @@
 import React from 'react'
 import { SocialIcon } from 'react-social-icons'
 
-export default function SocialBar() {
+const SocialBar = () => {
   return (
     <nav className="navbar navbar-dark bg-dark SocialBar">
       <div className="container justify-content-center">
@@ -23,3 +23,5 @@ export default function SocialBar() {
     </nav>
   )
 }
+
+export default SocialBar;

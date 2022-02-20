@@ -5,7 +5,7 @@ import Projects from '../Projects/Projects'
 import NavBar from '../NavBar/NavBar'
 import SocialBar from '../SocialBar/SocialBar'
 
-function App() {
+const App = () => {
   return (
     <BrowserRouter>
       <NavBar />
@@ -19,4 +19,4 @@ function App() {
   )
 }
 
-export default App
+export default App;

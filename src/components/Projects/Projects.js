@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react'
 import sanityClient from '../../client.js'
 import './Projects.css'
 
-export default function Projects() {
+const Projects = () => {
   const [projectData, setProjectData] = useState(null)
 
   useEffect(() => {
@@ -61,3 +61,5 @@ export default function Projects() {
     </div>
   )
 }
+
+export default Projects;
